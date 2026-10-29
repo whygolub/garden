@@ -1,0 +1,17 @@
+# Пример структуры настроек. Настоящий config.yaml лежит в приватном репозитории с данными.
+keywords:
+  include: [пример]
+  exclude: []
+
+sources:
+  fl: {enabled: false, feeds: []}
+  habr: {enabled: false, pages: []}
+  kwork: {enabled: false, categories: []}
+  telegram: {enabled: false, channels: []}
+
+maps:
+  regions: []
+  skip_chains: true
+  check_sites: true
+  old_site_years: 3
+  niches: []
